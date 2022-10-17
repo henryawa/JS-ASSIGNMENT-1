@@ -36,6 +36,7 @@ const playRound = () => {
     console.log(`You Lose! ${computerChoice} beats ${playerChoice}`);
   } else {
     console.log("Invalid expression");
+    playRound();
   }
 };
 
